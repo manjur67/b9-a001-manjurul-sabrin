@@ -11,7 +11,7 @@
     width: 1320px;
     height: 482px;
     border-radius: 16px;
-    background: url(../resources/Banner\ Image.png) rgba(255, 0, 150, 0.3);
+    background: url('../resources/Banner\ Image.png') rgba(255, 0, 150, 0.3);
     background-blend-mode: multiply;
     background-repeat: no-repeat;
     background-size:cover;
@@ -78,7 +78,7 @@
     width: 1320px;
     height: 600px;
     border-radius: 16px;
-    background: url(../resources/Vectorrr.png) #30031d4d;
+    background: url('../resources/Vectorrr.png') #30031d4d;
     background-blend-mode: multiply;
     background-repeat: no-repeat;
     background-size:cover;
@@ -197,6 +197,8 @@
     height: 482px;
     border-radius: 16px;
     
+    margin: auto;
+    /* padding: 100px 100px 100px 100px; */
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -228,7 +230,68 @@
     border-radius: 364.844px;
     border: 15px solid #F00;
 }
+.coming-soon-section-c3-h1{
+    color: #F00;
+    font-family: Inter;
+    font-size: 48px;
+    font-weight: 700;
+}
+.coming-soon-section-c3-p{
+    color: rgba(7, 2, 17, 0.60);
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 32px;
+}
+.coming-soon-section-c3-img{
+    width: 140px;
+    height: 140px;
+}
 
 
 
 /* footer styles */
+footer{
+    width: 1600px;
+    height: 609px;
+    background: #070211;
+
+    margin: auto;
+    padding-top: 100px;
+}
+.footer-div-r1-p{
+    color: #FFF;
+    font-family: Inter;
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 40px;
+}
+.footer-div-r2{
+    width: 1320px;
+    justify-content: space;
+    align-items: center;
+}
+
+.footer-div-r3{
+    width: 1600px;
+    display: flex;
+}
+.footer-div-r3-p1{
+    margin-left: 50px;
+    text-align: right;
+
+    color: #FFF;
+    font-family: Inter;
+    font-size: 24px;
+    font-weight: 500;
+}
+.footer-div-r3-p2{
+    margin-left: 50px;
+    text-align: right;
+
+    color: #FFF;
+    font-family: Inter;
+    font-size: 24px;
+    font-weight: 500;
+    text-decoration: none;
+}
